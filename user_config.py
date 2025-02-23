@@ -1,1 +1,1 @@
-password = 24112005
+password = your gmial pass
