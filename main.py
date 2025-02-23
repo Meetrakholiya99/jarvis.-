@@ -18,7 +18,7 @@ engine = pyttsx3.init()
 engine.setProperty("rate", 170)
 
 # Get Gemini API key from environment variable
-GEMINI_API_KEY = os.environ.get("AIzaSyDzCY1R3XFcMSWh9_pR1G7V9BEDoXOBEug")
+GEMINI_API_KEY = os.environ.get("gemini ai key")
 
 if not GEMINI_API_KEY:
     print("Error: Gemini API key not found. Please set the GEMINI_API_KEY environment variable.")
